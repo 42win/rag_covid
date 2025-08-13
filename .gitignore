@@ -1,0 +1,36 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+*.env
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local data / temp files
+*.sqlite3
+*.db
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
