@@ -121,11 +121,15 @@ def run_rag_answer(
     prompt = (
         "TUGAS: Ekstrak jawaban HANYA dari KONTEN di bawah.\n"
         "- Jika tidak ada info relevan, balas:\n"
+
         "Tidak ditemukan jawaban pada konteks yang diberikan.\n\n"
+
         "KONTEN:\n"
         f"\"\"\"{context}\"\"\"\n\n\n"
+
         "PERTANYAAN:\n"
         f"{query}\n\n"
+        
         "HASIL:"
     )
 

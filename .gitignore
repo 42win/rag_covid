@@ -14,8 +14,8 @@ __pycache__/
 *.pyd
 
 # Environment variables
-.env
-*.env
+# .env
+# *.env
 
 # IDE/editor settings
 .vscode/

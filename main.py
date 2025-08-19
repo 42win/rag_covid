@@ -264,7 +264,7 @@ import generate_llm as G
 class RagBody(BaseModel):
     query: str = Field(..., description="Pertanyaan pengguna")
     top_k_factoid: int = 1
-    llm_url: Optional[str] = None
+    # llm_url: Optional[str] = None
 
 @app.post("/rag-answer")
 def rag_answer(body: RagBody):
@@ -273,7 +273,7 @@ def rag_answer(body: RagBody):
         result = G.run_rag_answer(
             query=body.query,
             top_k_factoid=body.top_k_factoid,
-            llm_url=body.llm_url,  # boleh None -> pakai ENV/default
+            # llm_url=body.llm_url,  # boleh None -> pakai ENV/default
         )
         return {"ok": True, "result": result}
     except Exception as e:
