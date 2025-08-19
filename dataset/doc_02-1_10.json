@@ -1,0 +1,1325 @@
+[
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "HEADING",
+    "marker": "",
+    "text": "SATUAN TUGAS PENANGANAN COVID-19 SURAT EDARAN NOMOR 25 TAHUN 2022 TENTANG PROTOKOL KESEHATAN PERJALANAN LUAR NEGERI PADA MASA PANDEMI CORONA VIRUS DISEASE 2019 (COVID-19)",
+    "children": []
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "A.",
+    "text": "A. Latar Belakang",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Bahwa dalam rangka menindaklanjuti perkembangan situasi persebaran virus SARS-CoV-2 pada berbagai negara di dunia dan hasil evaluasi lintas sektoral maka diperlukan penyesuaian mekanisme pengendalian terhadap perjalanan luar negeri.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Bahwa berdasarkan pertimbangan sebagaimana dimaksud pada angka 1, perlu menetapkan Surat Edaran tentang Protokol Kesehatan Perjalanan Luar Negeri Pada Masa Pandemi Corona Virus Disease 2019 (Covid-19).",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "B.",
+    "text": "B. Maksud dan Tujuan Maksud Surat Edaran ini adalah untuk menerapkan protokol kesehatan terhadap pelaku perjalanan luar negeri pada masa pandemi Covid-19. Tujuan Surat Edaran ini adalah untuk mencegah terjadinya peningkatan penularan Covid-19.",
+    "children": []
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "C.",
+    "text": "C. Pengertian",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Pelaku Perjalanan Luar Negeri, yang selanjutnya disingkat PPLN adalah WNI/WNA yang melakukan perjalanan dari luar negeri pada 14 hari terakhir.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. Reverse-Transcriptase Polymerase Chain Reaction yang selanjutnya disebut RTPCR adalah jenis uji diagnostik yang mendeteksi materi genetik virus yang berasal dari sampel tertentu seperti tes usap nasofaring/orofaring, dengan menggunakan enzim reverse-transcriptase dan reaksi polymerase berantai.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. Pemantauan kesehatan mandiri adalah upaya pengamatan kondisi kesehatan fisik oleh setiap PPLN yang bertujuan untuk memastikan tidak timbulnya gejala Covid-19 dan mencegah kemungkinan penularan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "5.",
+        "text": "5. Isolasi adalah upaya pemisahan sementara seseorang yang sakit dan membutuhkan perawatan Covid-19 atau seseorang terkonfirmasi Covid-19 berdasarkan hasil diagnostik, dari orang sehat yang bertujuan untuk mengurangi risiko penularan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "6.",
+        "text": "6. Sertifikat vaksin adalah dokumen fisik atau digital bukti telah diterimanya rangkaian vaksinasi.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "7.",
+        "text": "7. PPLN berusia di bawah 18 tahun dan membutuhkan perlindungan khusus adalah anak yang berada dalam situasi darurat; anak yang berhadapan dengan hukum; anak dari kelompok minoritas dan terisolasi; anak yang dieksploitasi secara ekonomi dan/atau seksual; anak yang menjadi korban penyalahgunaan narkotika, alkohol, psikotropika, dan zat adiktif lainnya; anak yang menjadi korban pornografi; anak dengan HIV/AIDS; anak korban penculikan, penjualan, dan/atau perdagangan; anak korban kekerasan fisik dan/atau psikis; anak korban kejahatan seksual; anak korban jaringan terorisme; anak penyandang disabilitas; anak korban perlakuan salah dan penelantaran; anak dengan perilaku sosial menyimpang; dan anak yang menjadi korban stigmatisasi dari pelabelan terkait dengan kondisi orang tuanya.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "8.",
+        "text": "8. S-Gene Target Failure yang selanjutnya disebut SGTF adalah salah satu jenis tes dengan menggunakan metode deteksi molekuler atau Nucleic Acid Amplification Test (NAAT) yang mampu melihat kegagalan deteksi gen S ketika gen lain terdeteksi sebagai penanda/marker skrining varian yang memiliki tingkat mutasi spike (S) tinggi seperti SARS-Cov-2 varian B.1.1.529.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "9.",
+        "text": "9. Kasus terkonfirmasi positif Covid-19 tanpa gejala adalah seseorang yang terkonfirmasi positif Covid-19 dan tidak ditemukan gejala klinis.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "10.",
+        "text": "10. Kasus terkonfirmasi positif Covid-19 dengan gejala ringan adalah seseorang yang terkonfirmasi positif Covid-19 dengan gejala seperti demam, batuk, fatigue, anoreksia, napas pendek, mialgia, dan gejala tidak spesifik lainnya, tanpa disertai bukti pneumonia virus atau tanpa hipoksia.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "11.",
+        "text": "11. Kasus terkonfirmasi positif Covid-19 dengan gejala sedang adalah seseorang yang terkonfirmasi positif Covid-19 dengan tanda klinis pneumonia seperti demam, batuk, sesak, dan napas cepat tanpa disertai tanda pneumonia berat seperti saturasi oksigen di bawah 93% pada udara ruangan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "12.",
+        "text": "12. Kasus terkonfirmasi positif Covid-19 dengan gejala berat adalah seseorang yang terkonfirmasi positif Covid-19 dengan tanda klinis pneumonia seperti demam, batuk, sesak, dan napas cepat, disertai dengan salah satu gejala yakni frekuensi napas di atas 30 kali per menit, distres pernapasan berat, atau saturasi oksigen di bawah 93% pada udara ruangan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "13.",
+        "text": "13. Evakuasi medis adalah tindakan mobilisasi dengan standar kegawatdaruratan medis terhadap orang yang terkonfirmasi positif Covid-19 berdasarkan pemeriksaan RT-PCR dari suatu area menuju rumah sakit rujukan perawatan atau tempat isolasi/perawatan.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "D.",
+    "text": "D. Ruang Lingkup Ruang lingkup Surat Edaran ini adalah Protokol Kesehatan terhadap pelaku perjalanan luar negeri yang meliputi:",
+    "children": [
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "a.",
+        "text": "a. protokol kesehatan umum;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "b.",
+        "text": "b. entry point;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "c.",
+        "text": "c. kriteria WNI/WNA pelaku perjalanan luar negeri yang dapat memasuki wilayah Indonesia;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "d.",
+        "text": "d. persyaratan dokumen keberangkatan PPLN dari Indonesia;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "e.",
+        "text": "e. persyaratan dokumen kedatangan PPLN ke Indonesia;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "f.",
+        "text": "f. protokol Covid-19 pada entry point;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "g.",
+        "text": "g. mekanisme tindak lanjut kasus positif dan isolasi/perawatan;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "h.",
+        "text": "h. vaksinasi bagi PPLN;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "i.",
+        "text": "i. pembiayaan;",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "j.",
+        "text": "j. ketentuan lain-lain; dan",
+        "children": []
+      },
+      {
+        "type": "LETTERED",
+        "tag": "HIER 5",
+        "level": 5,
+        "tag_src": "LETTERED 4",
+        "marker": "k.",
+        "text": "k. pemantauan, pengendalian, dan evaluasi",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "E.",
+    "text": "E. Dasar Hukum",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Peraturan Presiden Nomor 82 Tahun 2020 tentang Komite Penanganan Corona Virus Disease 2019 (Covid-19) dan Pemulihan Ekonomi Nasional, sebagaimana telah diubah dengan Peraturan Presiden Nomor 108 Tahun 2020 tentang Perubahan Atas Peraturan Presiden Nomor 82 Tahun 2020 tentang Komite Penanganan Corona Virus Disease 2019 (Covid-19) dan Pemulihan Ekonomi Nasional;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Keputusan Presiden Republik Indonesia Nomor 11 Tahun 2020 tentang Penetapan Kedaruratan Kesehatan Masyarakat Corona Virus Disease 2019 (Covid-19);",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. Keputusan Presiden Republik Indonesia Nomor 12 Tahun 2020 tentang Penetapan Bencana Nonalam Penyebaran Corona Virus Disease 2019 (Covid-",
+        "children": [
+          {
+            "type": "NUMBERED_PAREN",
+            "tag": "HIER 6",
+            "level": 6,
+            "tag_src": "NUMBERED 5",
+            "marker": "19)",
+            "text": "19) sebagai Bencana Nasional;",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. Keputusan Presiden Republik Indonesia Nomor 24 Tahun 2021 tentang Penetapan Status Faktual Pandemi Corona Virus Disease 2019 (Covid-19) di Indonesia; dan",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "5.",
+        "text": "5. Surat Keputusan Ketua Komite Penanganan Covid-19 dan Pemulihan Ekonomi Nasional Nomor 1 Tahun 2020 tentang Susunan Keanggotaan dan Struktur Organisasi Satuan Tugas Penanganan Covid-19 Komite Penanganan Corona Virus Disease 2019 (Covid-19) dan Pemulihan Ekonomi Nasional.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "F.",
+    "text": "F. Protokol Kesehatan Umum Ketentuan protokol kesehatan umum bagi PPLN meliputi:",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. menggunakan masker kain 3 lapis atau masker medis yang menutup hidung, mulut dan dagu;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. mengganti masker secara berkala setiap empat jam, dan membuang limbah masker di tempat yang disediakan;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. mencuci tangan secara berkala menggunakan air dan sabun atau hand sanitizer, terutama setelah menyentuh benda yang disentuh orang lain;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. menjaga jarak minimal 1,5 meter dengan orang lain serta menghindari kerumunan; dan",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "5.",
+        "text": "5. dihimbau untuk tidak berbicara satu arah maupun dua arah melalui telepon ataupun secara langsung sepanjang perjalanan dengan moda transportasi umum darat, perkeretaapian, laut, sungai, danau, penyeberangan, dan udara.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "G.",
+    "text": "G. Entry Point",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. PPLN memasuki wilayah Indonesia melalui pintu masuk (entry point) perjalanan luar negeri sebagai berikut:",
+        "children": [
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "a.",
+            "text": "a. Bandar Udara:",
+            "children": [
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "1)",
+                "text": "1) Soekarno Hatta, Banten;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "2)",
+                "text": "2) Juanda, Jawa Timur;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "3)",
+                "text": "3) Ngurah Rai, Bali;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "4)",
+                "text": "4) Hang Nadim, Kepulauan Riau;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "5)",
+                "text": "5) Sam Ratulangi, Sulawesi Utara;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "6)",
+                "text": "6) Zainuddin Abdul Madjid, Nusa Tenggara Barat;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "7)",
+                "text": "7) Kualanamu, Sumatera Utara;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "8)",
+                "text": "8) Sultan Hasanuddin, Sulawesi Selatan;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "9)",
+                "text": "9) Yogyakarta, Daerah Istimewa Yogyakarta;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "10)",
+                "text": "10) Sultan Iskandar Muda, Aceh;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "11)",
+                "text": "11) Minangkabau, Sumatera Barat;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "12)",
+                "text": "12) Sultan Aji Muhammad Sulaiman Sepinggan, Kalimantan Timur;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "13)",
+                "text": "13) Sultan Syarif Kasim II, Riau;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "14)",
+                "text": "14) Kertajati, Jawa Barat; dan",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "15)",
+                "text": "15) Sentani, Papua.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "b.",
+            "text": "b. Pelabuhan Laut: Seluruh pelabuhan laut internasional di Indonesia dibuka sebagai pintu masuk (entry point) perjalanan luar negeri melalui pertimbangan dari Direktorat Jenderal Perhubungan Laut Kementerian Perhubungan",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "c.",
+            "text": "c. Pos Lintas Batas Negara:",
+            "children": [
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "1)",
+                "text": "1) Aruk, Kalimantan Barat;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "2)",
+                "text": "2) Entikong, Kalimantan Barat;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "3)",
+                "text": "3) Motaain, Nusa Tenggara Timur;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "4)",
+                "text": "4) Nanga Badau, Kalimantan Barat;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "5)",
+                "text": "5) Motamasin, Nusa Tenggara Timur;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "6)",
+                "text": "6) Wini, Nusa Tenggara Timur;",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "7)",
+                "text": "7) Skouw, Papua; dan",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "8)",
+                "text": "8) Sota, Papua.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "H.",
+    "text": "H. Kriteria WNI/WNA PPLN yang Dapat Memasuki Wilayah Indonesia",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Seluruh WNI PPLN diizinkan memasuki Indonesia dengan tetap mengikuti protokol kesehatan ketat sebagaimana dimaksud pada huruf F.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. WNA PPLN dapat memasuki wilayah Indonesia dengan kriteria sebagai berikut:",
+        "children": [
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "a.",
+            "text": "a. sesuai dengan ketentuan mengenai keimigrasian yang diatur oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia;",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "b.",
+            "text": "b. sesuai skema perjanjian (bilateral), seperti Travel Corridor Arrangement (TCA); dan/atau",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "c.",
+            "text": "c. mendapatkan pertimbangan/izin khusus secara tertulis dari Kementerian/Lembaga.",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "I.",
+    "text": "I. Persyaratan Dokumen Keberangkatan Pelaku Perjalanan Luar Negeri dari Indonesia",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. WNI PPLN dengan usia 18 tahun ke atas yang akan melakukan perjalanan ke luar negeri dari Indonesia diwajibkan menunjukkan kartu/sertifikat (fisik ataupun digital) telah menerima vaksin Covid-19 dosis ketiga (booster) yang ditunjukkan melalui aplikasi PeduliLindungi.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Ketentuan kewajiban menunjukkan kartu/sertifikat sebagaimana dimaksud pada angka 1 dikecualikan bagi WNI PPLN dengan ketentuan sebagai berikut:",
+        "children": [
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "a.",
+            "text": "a. WNI PPLN dengan kondisi kesehatan khusus atau penyakit komorbid yang menyebabkan pelaku perjalanan tidak dapat menerima vaksin wajib melampirkan surat keterangan dokter dari Rumah Sakit Pemerintah yang menyatakan bahwa yang bersangkutan belum dan/atau tidak dapat menerima vaksin Covid-19; atau",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "b.",
+            "text": "b. WNI PPLN yang telah selesai menjalankan isolasi/perawatan Covid-19 dan telah dinyatakan tidak aktif menularkan Covid-19 namun belum bisa mendapatkan vaksinasi dosis ketiga (booster) wajib menunjukkan surat keterangan dokter dari Rumah Sakit Pemerintah atau Kementerian Kesehatan yang menyatakan bahwa yang bersangkutan sudah tidak aktif menularkan Covid-19 atau Covid-19 recovery certificate.",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "J.",
+    "text": "J. Persyaratan Dokumen Kedatangan Pelaku Perjalanan Luar Negeri ke Indonesia",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. PPLN diwajibkan menggunakan aplikasi PeduliLindungi dengan terlebih dahulu mengunduh aplikasi tersebut sebelum keberangkatan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Menunjukkan kartu/sertifikat (fisik ataupun digital) telah menerima vaksin Covid-",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "",
+        "text": "19 dosis kedua minimal 14 (empat belas) hari sebelum keberangkatan yang tertulis dalam bahasa Inggris, selain dengan bahasa negara asal.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. Kewajiban menunjukkan kartu/sertifikat vaksinasi Covid-19 sebagaimana dimaksud pada angka 2 dikecualikan kepada:",
+        "children": [
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "a.",
+            "text": "a. PPLN dengan usia di bawah 18 tahun;",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "b.",
+            "text": "b. PPLN dengan kondisi kesehatan khusus atau penyakit komorbid yang menyebabkan pelaku perjalanan tidak dapat menerima vaksin wajib melampirkan surat keterangan dokter dari Rumah Sakit Pemerintah negara keberangkatan yang menyatakan bahwa yang bersangkutan belum dan/atau tidak dapat menerima vaksin Covid-19;",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "c.",
+            "text": "c. PPLN yang telah selesai menjalankan isolasi/perawatan Covid-19 dan telah dinyatakan tidak aktif menularkan Covid-19 namun belum bisa mendapatkan vaksinasi dosis kedua wajib melampirkan surat keterangan dokter dari Rumah Sakit Pemerintah negara keberangkatan atau kementerian yang menyelenggarakan urusan pemerintah di bidang kesehatan pada negara keberangkatan yang menyatakan bahwa yang bersangkutan sudah tidak aktif menularkan Covid-19 atau Covid-19 recovery certificate;",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "d.",
+            "text": "d. WNA PPLN pemegang visa diplomatik dan visa dinas yang terkait dengan kunjungan resmi/kenegaraan pejabat asing setingkat menteri keatas dan WNA yang masuk ke Indonesia dengan skema Travel Corridor Arrangement, sesuai prinsip resiprositas dengan tetap menerapkan protokol kesehatan secara ketat; dan",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "e.",
+            "text": "e. WNA PPLN yang belum menerima vaksin dan bermaksud melakukan perjalanan domestik dalam rangka melanjutkan perjalanan dengan penerbangan internasional keluar dari wilayah Indonesia, diperbolehkan untuk tidak menunjukkan kartu/sertifikat vaksinasi Covid-19 selama tidak keluar dari area bandara selama transit menunggu penerbangan internasional yang hendak diikuti, dengan persyaratan:",
+            "children": [
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "1)",
+                "text": "1) telah diizinkan oleh Kantor Kesehatan Pelabuhan (KKP) setempat untuk melakukan perjalanan domestik dalam rangka melanjutkan perjalanan dengan penerbangan internasional keluar dari wilayah Indonesia; dan",
+                "children": []
+              },
+              {
+                "type": "NUMBERED_PAREN",
+                "tag": "HIER 6",
+                "level": 6,
+                "tag_src": "NUMBERED 5",
+                "marker": "2)",
+                "text": "2) menunjukkan jadwal tiket penerbangan ke luar Indonesia untuk direct transit dari kota keberangkatan menuju bandara internasional di wilayah Indonesia dengan tujuan akhir ke negara tujuan.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "K.",
+    "text": "K. Protokol Covid-19 pada Entry Point",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. PPLN diwajibkan menjalani pemeriksaan dokumen kedatangan perjalanan luar negeri ke Indonesia sebagaimana dimaksud pada huruf J.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Setelah pemeriksaan dokumen, PPLN diwajibkan menjalani pemeriksaan gejala yang berkaitan dengan Covid-19 termasuk pemeriksaan suhu tubuh.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. PPLN yang terdeteksi memiliki gejala yang berkaitan dengan Covid-19 dan/atau memiliki suhu tubuh di atas 37,5 derajat Celcius, wajib menjalani pemeriksaan konfirmasi RT-PCR.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. PPLN yang terdeteksi tidak memiliki gejala yang berkaitan dengan Covid-19 dan memiliki suhu tubuh di bawah 37,5 derajat Celcius, diperkenankan untuk melanjutkan perjalanan dan dianjurkan untuk melakukan pemantauan kesehatan mandiri terhadap gejala Covid-19 selama 14 hari dengan menerapkan protokol kesehatan ketat.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "5.",
+        "text": "5. PPLN yang melakukan pemeriksaan konfirmasi RT-PCR sebagaimana dimaksud pada angka 3, diperkenankan untuk melanjutkan perjalanan setelah melakukan pengambilan sampel pemeriksaan konfirmasi RT-PCR dan wajib mengikuti ketentuan sebagai berikut:",
+        "children": [
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "a.",
+            "text": "a. menunggu hasil pemeriksaan konfirmasi RT-PCR di kamar hotel, kamar penginapan, atau tempat tinggal; dan",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "b.",
+            "text": "b. tidak diperkenankan untuk meninggalkan kamar hotel, kamar penginapan, atau tempat tinggal dan tidak diperkenankan untuk melakukan interaksi dengan orang lain sebelum hasil pemeriksaan konfirmasi RT-PCR menunjukkan hasil negatif.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "6.",
+        "text": "6. Dalam hal pemeriksaan konfirmasi RT-PCR sebagaimana dimaksud dalam angka",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "",
+        "text": "3 menunjukkan hasil positif, terhadap PPLN dilakukan isolasi/perawatan sesuai dengan mekanisme tindak lanjut kasus positif.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "7.",
+        "text": "7. Dalam hal pemeriksaan konfirmasi RT-PCR sebagaimana dimaksud dalam angka",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "",
+        "text": "3 menunjukkan hasil negatif, PPLN diperkenankan untuk melanjutkan perjalanan dan dianjurkan untuk melakukan pemantauan kesehatan mandiri terhadap gejala Covid-19 selama 14 hari dengan menerapkan protokol kesehatan ketat.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "L.",
+    "text": "L. Mekanisme Tindak Lanjut Kasus Positif dan Isolasi/Perawatan",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. PPLN dengan hasil pemeriksaan konfirmasi RT-PCR positif tanpa disertai gejala atau mengalami gejala ringan wajib menjalankan isolasi/perawatan di hotel isolasi atau fasilitas isolasi terpusat yang ditetapkan pemerintah atau isolasi mandiri di tempat tinggal dengan waktu isolasi/perawatan sesuai anjuran Kementerian Kesehatan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. PPLN dengan hasil pemeriksaan konfirmasi RT-PCR positif dengan disertai gejala sedang atau gejala berat dan/atau dengan komorbid yang tidak terkontrol, dilakukan isolasi/perawatan di rumah sakit rujukan Covid-19 dengan waktu isolasi/perawatan sesuai rekomendasi dari dokter dan anjuran Kementerian Kesehatan.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "M.",
+    "text": "M. Vaksinasi bagi Pelaku Perjalanan Luar Negeri",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. WNI PPLN yang belum mendapatkan vaksinasi Covid-19 baik dosis pertama, dosis kedua atau dosis ketiga wajib menjalani vaksinasi di entry point perjalanan luar negeri setelah dilakukan pemeriksaan gejala.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. WNA PPLN yang sudah berada di Indonesia dan akan melakukan perjalanan, baik domestik maupun internasional, wajib menjalani vaksinasi melalui skema program atau gotong royong sesuai ketentuan peraturan perundang-undangan.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "N.",
+    "text": "N. Pembiayaan",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Biaya pemeriksaan konfirmasi RT-PCR di entry point sebagaimana dimaksud pada huruf K.3. bagi WNA ditanggung secara mandiri, sedangkan bagi WNI ditanggung oleh pemerintah.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Biaya penanganan Covid-19 dan evakuasi medis bagi WNA dibebankan secara mandiri, sedangkan bagi WNI ditanggung pemerintah.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. Biaya vaksinasi di entry point bagi WNI PPLN sebagaimana dimaksud pada huruf",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "",
+    "text": "M.1. ditanggung oleh pemerintah.",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. Dalam hal WNA PPLN tidak dapat membiayai pemeriksaan konfirmasi RT-PCR di entry point dan isolasi/perawatan ketika hasil pemeriksaan konfirmasi RT-PCR menunjukkan hasil positif, sebagaimana dimaksud pada angka 1 dan angka 2, maka pihak Sponsor, Kementerian/Lembaga/BUMN yang memberikan pertimbangan izin masuk bagi WNA tersebut dapat dimintakan pertanggungjawaban yang dimaksud.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "O.",
+    "text": "O. Ketentuan Lain-Lain",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Terhadap hasil pemeriksaan tes RT-PCR di entry point dapat dimintakan pembanding secara tertulis dengan mengisi formulir yang telah disediakan KKP atau Kementerian Kesehatan dengan biaya pemeriksaan ditanggung sendiri oleh PPLN.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Pelaksanaan tes pembanding RT-PCR sebagaimana dimaksud pada angka 1 dilakukan secara bersamaan atau simultan oleh KKP di 2 (dua) laboratorium untuk tujuan pemeriksaan pembanding SGTF dan pemeriksaan pembanding hasil RT-PCR, yaitu di: Badan Penelitian dan Pengembangan Kesehatan (Balitbangkes), Rumah Sakit Umum Pusat Cipto Mangunkusumo (RSCM), Rumah Sakit Pusat Angkatan Darat Gatot Soebroto (RSPAD), Rumah Sakit Bhayangkara Raden Said Sukanto (RS Polri) atau laboratorium pemerintah lainnya (Balai Teknik Kesehatan Lingkungan, Laboratorium Kesehatan Daerah, atau laboratorium rujukan pemerintahan lainnya).",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. KKP bandara dan pelabuhan laut internasional memfasilitasi PPLN yang membutuhkan pelayanan medis darurat saat kedatangan di Indonesia sesuai ketentuan peraturan perundang-undangan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. Setiap operator moda transportasi di entry point perjalanan luar negeri diwajibkan menggunakan aplikasi PeduliLindungi.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "5.",
+        "text": "5. Kementerian/lembaga/perangkat daerah yang menyelenggarakan fungsi terkait dengan PPLN menindaklanjuti Surat Edaran ini dengan melakukan penerbitan instrumen hukum yang selaras dan tidak bertentangan dengan ketentuan peraturan perundang-undangan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "6.",
+        "text": "6. Instrumen hukum sebagaimana dimaksud pada angka 5 merupakan bagian tidak terpisahkan dari Surat Edaran ini.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "P.",
+    "text": "P. Pemantauan, Pengendalian, dan Evaluasi",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Satuan Tugas Penanganan Covid-19 Daerah yang dibantu otoritas penyelenggara transportasi umum bersama-sama menyelenggarakan pengendalian perjalanan orang dan transportasi umum yang aman Covid-19 dengan membentuk Pos Pengamanan Terpadu.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Kementerian/Lembaga, TNI, POLRI dan pemerintah daerah berhak menghentikan dan/atau melakukan pelarangan perjalanan orang atas dasar Surat Edaran ini dan ketentuan peraturan perundang-undangan.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. Kementerian/Lembaga, TNI, POLRI dibantu Satuan Tugas Penanganan Covid-",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "",
+        "text": "19 Bandara dan Pelabuhan Laut c.q. KKP Bandara dan Pelabuhan Laut Internasional melakukan pengawasan rutin untuk memastikan kepatuhan pelaksanaan protokol kesehatan melalui fasilitas telepon, panggilan video maupun pengecekan di lapangan selama masa pandemi Covid-19 ini.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. Instansi berwenang (Kementerian/Lembaga, TNI, POLRI, dan Pemerintah Daerah) melaksanakan pendisiplinan protokol kesehatan Covid-19 dan penegakan hukum sesuai ketentuan peraturan perundang-undangan.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "HEADING",
+    "tag": "HIER 1",
+    "level": 1,
+    "tag_src": "LETTERED 2",
+    "marker": "Q.",
+    "text": "Q. Penutup",
+    "children": [
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Surat Edaran ini berlaku efektif mulai tanggal 1 September 2022 sampai dengan waktu yang ditentukan kemudian.",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Dengan berlakunya Surat Edaran ini:",
+        "children": [
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "a.",
+            "text": "a. Surat Edaran Nomor 22 Tahun 2022 tentang Protokol Kesehatan Perjalanan Luar Negeri Pada Masa Pandemi Corona Virus Disease 2019 (Covid-19); dan",
+            "children": []
+          },
+          {
+            "type": "LETTERED",
+            "tag": "HIER 5",
+            "level": 5,
+            "tag_src": "LETTERED 4",
+            "marker": "b.",
+            "text": "b. Addendum Surat Edaran Nomor 22 Tahun 2022 tentang Protokol Kesehatan Perjalanan Luar Negeri Pada Masa Pandemi Corona Virus Disease 2019 (Covid-19), dicabut dan dinyatakan tidak berlaku. Demikian agar dapat dipedomani dan dilaksanakan dengan penuh tanggung jawab. Ditetapkan di: Jakarta Pada tanggal: 1 September 2022 Kepala Badan Nasional Penanggulangan Bencana selaku Ketua Satuan Tugas Penanganan Covid-19, Letjen TNI Suharyanto,S.Sos., M.M. Tembusan Yth:",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "1.",
+        "text": "1. Presiden Republik Indonesia;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "2.",
+        "text": "2. Wakil Presiden Republik Indonesia;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "3.",
+        "text": "3. Ketua Komite Kebijakan Penanganan Corona Virus Disease 2019 (Covid-19) dan Pemulihan Ekonomi Nasional;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "4.",
+        "text": "4. Para Menteri/Pimpinan Lembaga;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "5.",
+        "text": "5. Panglima TNI;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "6.",
+        "text": "6. Kapolri;",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "7.",
+        "text": "7. Ketua Satuan Tugas Pemulihan Ekonomi Nasional; dan",
+        "children": []
+      },
+      {
+        "type": "HEADING",
+        "tag": "HIER 2",
+        "level": 2,
+        "tag_src": "NUMBERED 3.1",
+        "marker": "8.",
+        "text": "8. Ketua Satuan Tugas Penanganan Corona Virus Disease 2019 (Covid-19) Daerah.",
+        "children": []
+      }
+    ]
+  }
+]

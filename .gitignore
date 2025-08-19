@@ -5,6 +5,8 @@ env/
 .venv/
 models
 
+chroma_db_e5
+
 # Python cache
 __pycache__/
 *.pyc

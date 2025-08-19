@@ -5,7 +5,7 @@ python -m venv env
 
 2. aktivasi environment
 ```
-.\env\Scripts\activate
+source venv/bin/activate
 ```
 
 3. install library

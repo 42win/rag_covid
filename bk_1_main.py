@@ -10,6 +10,17 @@ from llama_cpp import Llama
 
 from dotenv import load_dotenv
 
+import threading, gc
+from fastapi import Request
+LLM_LOCK = threading.Lock()
+
+
+def rebuild_llm():
+    global _llm
+    _llm = None
+    gc.collect()
+    ensure_llm_loaded()
+
 # ========= Config via ENV (isi .env atau export) =========
 load_dotenv()
 
@@ -89,9 +100,12 @@ def ensure_llm_loaded() -> None:
     _llm = Llama(
         model_path=str(_model_path),
         n_threads=N_THREADS,
+        n_batch=1024,    # <= tambah ini
         n_ctx=N_CTX,
         seed=1,
-        logits_all=False
+        logits_all=False,
+        use_mmap=True,   # opsional: percepat load
+        use_mlock=True   # opsional: hindari swap
     )
 
 
@@ -162,7 +176,7 @@ class GenerateRequest(BaseModel):
     prompt: str
 
 @app.post("/generate")
-def generate_text(req: GenerateRequest):
+async def generate_text(req: GenerateRequest, request: Request):
     global _llm
     try:
         ensure_llm_loaded()
@@ -172,110 +186,114 @@ def generate_text(req: GenerateRequest):
     if _llm is None:
         raise HTTPException(status_code=400, detail="Model belum dimuat. Jalankan /prepare_model terlebih dahulu.")
 
+    # === Kebijakan saat sibuk ===
+    # - Kalau ingin request baru langsung ditolak saat masih ada proses: pakai acquire(blocking=False)
+    # - Kalau ingin antri: pakai acquire() (blocking=True)
+    if not LLM_LOCK.acquire(blocking=False):
+        # model sedang generate untuk request lain → minta klien coba lagi
+        raise HTTPException(status_code=409, detail="Model sedang memproses permintaan lain. Coba lagi.")
+
     start_time = time.time()
     try:
-        # gunakan create_completion tanpa n_batch
-        output = _llm.create_completion(
-            prompt=req.prompt,
-            max_tokens=250,
-            stop=["</s>", "ANSWER:"],
-            temperature=0.3,
-            top_p=0.9
-        )
+        # ===== Pengaturan generasi =====
+        max_per_round = 512      # kecilkan agar responsif terhadap cancel
+        max_rounds    = 3        # total kira-kira 1536 token
+        stop_tokens   = None     # biarkan EOS internal
 
-        # ambil dan bersihkan jawaban
-        raw_answer = output["choices"][0]["text"].strip()
-        cleaned_answer = clean_output(raw_answer)
+        # --- Batasi prompt berdasarkan token agar tidak overflow n_ctx ---
+        toks = _llm.tokenize(req.prompt.encode("utf-8"))
+        n_ctx = getattr(_llm, "n_ctx", lambda: 2048)()
+        margin = max_per_round + 64
+        if len(toks) > (n_ctx - margin):
+            toks = toks[-(n_ctx - margin):]
+            prompt_text = _llm.detokenize(toks).decode("utf-8", errors="ignore")
+        else:
+            prompt_text = req.prompt
 
+        accumulated   = ""
+        finish_reason = None
+
+        for _ in range(max_rounds):
+            # === panggilan sinkron per-batch; aman terhadap cancel di _antara_ putaran ===
+            out = _llm.create_completion(
+                prompt=prompt_text,
+                max_tokens=max_per_round,
+                temperature=0.3,
+                top_p=0.9,
+                stop=stop_tokens,
+                repeat_penalty=1.05,
+            )
+            piece = out["choices"][0]["text"]
+            accumulated += piece
+            finish_reason = out["choices"][0].get("finish_reason")
+
+            # Cek apakah klien sudah disconnect
+            if await request.is_disconnected():
+                # Untuk mencegah state korup dipakai lagi → reset model
+                rebuild_llm()
+                # 499: Client Closed Request (banyak server pakai kode ini)
+                raise HTTPException(status_code=499, detail="Client menutup koneksi saat generate.")
+
+            # Selesai normal (stop/EOS)
+            if finish_reason and finish_reason != "length":
+                break
+
+            # Lanjut putaran berikutnya: tambahkan hasil ke konteks, tapi tetap jaga n_ctx
+            next_prompt = prompt_text + piece
+            toks2 = _llm.tokenize(next_prompt.encode("utf-8"))
+            if len(toks2) > (n_ctx - margin):
+                toks2 = toks2[-(n_ctx - margin):]
+                prompt_text = _llm.detokenize(toks2).decode("utf-8", errors="ignore")
+            else:
+                prompt_text = next_prompt
+
+        cleaned_answer = clean_output(accumulated)
+
+    except HTTPException:
+        # propagasikan 409/499/500 yang sudah kita set sendiri
+        raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        # Jika ada error di tengah generate, reset agar sesi berikutnya bersih
+        rebuild_llm()
+        raise HTTPException(status_code=500, detail=f"Inference error: {e}")
+    finally:
+        LLM_LOCK.release()
 
     elapsed_time = round(time.time() - start_time, 2)
-    return { 
+    return {
         "output": cleaned_answer,
+        "finish_reason": finish_reason or "unknown",
         "inference_time_seconds": elapsed_time
     }
-
+    
+import re
 
 def clean_output(text: str) -> str:
     """
-    Membersihkan output LLM:
-    - Hapus blok kode atau tanda ```
-    - Ambil hanya paragraf pertama
-    - Hilangkan spasi ganda
+    Bersihkan output LLM tanpa memotong isinya:
+    - Hapus blok kode bertanda ```...```
+    - Hilangkan prefix seperti 'Answer:' di awal baris
+    - Rapikan spasi berlebih per baris
+    - Pertahankan pemisah paragraf (newlines)
     """
-    import re
-    text = re.sub(r"```.*?```", "", text, flags=re.DOTALL)  # hapus blok kode
-    text = text.replace("\n", " ").strip()
-    text = re.sub(r"\s+", " ", text)  # normalisasi spasi
-    return text.split(".")[0].strip() + "."
+    # hapus fenced code blocks
+    text = re.sub(r"```.*?```", "", text, flags=re.DOTALL).strip()
 
+    # hilangkan prefix umum (Answer:, Jawaban:, Response:) di awal baris
+    text = re.sub(r"(?mi)^\s*(answer|jawaban|response)\s*:\s*", "", text)
 
-from build_kb import run_build_kb
+    # rapikan setiap baris tapi pertahankan newline antar paragraf
+    lines = [re.sub(r"\s+", " ", ln).strip() for ln in text.splitlines()]
+    # buang baris kosong beruntun → sisakan maksimal satu kosong
+    cleaned_lines = []
+    last_blank = False
+    for ln in lines:
+        if ln == "":
+            if not last_blank:
+                cleaned_lines.append("")
+            last_blank = True
+        else:
+            cleaned_lines.append(ln)
+            last_blank = False
 
-@app.post("/build-kb")
-def api_build_kb():
-    return run_build_kb()  # atau kirim argumen sesuai kebutuhan 
-
-# ===== Startup: inisialisasi index & model =====
-
-import searching as S   
-
-def _db_path():
-    return Path(os.environ.get("CHROMA_PATH",
-           Path(__file__).resolve().parent.parent / "rag_covid" / "chroma_db_e5"))
-
-@app.on_event("startup")
-def _startup():
-    try:
-        S.init_search(chroma_path=_db_path(), collection_name=os.environ.get("COLLECTION_NAME","covid_docs_e5"))
-        print("[startup] ready:", S.is_ready())
-    except Exception as e:
-        print("Init error:", e)
-
-class QueryBody(BaseModel):
-    query: str = Field(..., description="Pertanyaan pengguna")
-    top_k_factoid: int = 1
-    return_dict: bool = True
-
-def _ensure_ready():
-    if not S.is_ready():
-        S.init_search(chroma_path=_db_path(), collection_name=os.environ.get("COLLECTION_NAME","covid_docs_e5"))
-    if not S.is_ready():
-        raise RuntimeError("Belum init_search(). Pastikan DB sudah dibangun dan path benar.")
-
-@app.post("/search")
-def api_search(body: QueryBody):
-    try:
-        _ensure_ready()  # lazy init saat request
-        result = S.answer_query_auto(
-            body.query,
-            top_k_factoid=body.top_k_factoid,
-            return_dict=body.return_dict,
-        )
-        return {"ok": True, "result": result}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Search error: {e}")
-
-
-from pydantic import BaseModel, Field
-import generate_llm as G
-
-class RagBody(BaseModel):
-    query: str = Field(..., description="Pertanyaan pengguna")
-    top_k_factoid: int = 1
-    llm_url: Optional[str] = None
-
-@app.post("/rag-answer")
-def rag_answer(body: RagBody):
-    try:
-        _ensure_ready()  # pastikan searching siap
-        result = G.run_rag_answer(
-            query=body.query,
-            top_k_factoid=body.top_k_factoid,
-            llm_url=body.llm_url,  # boleh None -> pakai ENV/default
-        )
-        return {"ok": True, "result": result}
-    except Exception as e:
-        # konsisten dengan error style sebelumnya
-        raise HTTPException(status_code=500, detail=f"RAG error: {e}")
+    return "\n".join(cleaned_lines).strip()
