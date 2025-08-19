@@ -13,12 +13,17 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. running app
+4. lengkapi token hugging face anda di file .env
+```
+.env
+```
+
+5. running app
 ```
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-5. prepare model for the first time
+6. prepare model for the first time
 ```
 http://localhost:8000/prepare_model
 ```
